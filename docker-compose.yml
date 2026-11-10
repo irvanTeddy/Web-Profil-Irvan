@@ -2,6 +2,6 @@ version: '3'
 services:
   web:
     build: .
-    ports:
+    expose:
       - "80"
     restart: always
